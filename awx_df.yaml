@@ -2,8 +2,6 @@
 
 - hosts: awx_hosts_all
 
-connection: local
-
 tasks:
 
 - name: Checking disk space on all hosts.
