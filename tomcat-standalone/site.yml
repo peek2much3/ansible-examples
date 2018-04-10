@@ -1,7 +1,7 @@
 ---
 # This playbook deploys a simple standalone Tomcat 7 server.
-- hosts: all
-  remote_user: weblogic
+- hosts: awx_hosts_all
+  remote_user: ansible
   become: yes
   become_method: sudo
 
