@@ -1,6 +1,6 @@
 ---
 # This playbook deploys a simple standalone Tomcat 7 server.
-- hosts: awx_hosts_all
+- hosts: awx_tomcat_servers
   remote_user: ansible
   become: yes
   become_method: sudo
