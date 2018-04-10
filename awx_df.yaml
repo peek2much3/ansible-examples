@@ -2,8 +2,6 @@
 
 - hosts: awx_hosts_all
 
-tasks:
-
 - name: Checking disk space on all hosts.
 
 command: "df -h"
